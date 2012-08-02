@@ -2,9 +2,11 @@
 //  InfoView.m
 //  Jul19
 //
-//  Created by Lino Guglielmo on 7/25/12.
+//  Created by Lino Guglielmo on 7/30/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
+
+
 #import "InfoView.h"
 
 @implementation InfoView
@@ -26,24 +28,21 @@
 	if (self) {
 		// Initialization code
 		self.backgroundColor = [UIColor yellowColor];
-		self.font = [UIFont systemFontOfSize: 24];
-		self.text = information;
-		self.editable = NO;
-			
-		UIWebView *webView = [[UIWebView alloc] initWithFrame: self.bounds];
-		//self = webView;
-		webView.scalesPageToFit = YES;
+	//	self = [UIFont systemFontOfSize: 24];
+	//	self.text = information;
+	//	self.editable = NO;
 		
 		
-	
+		self.scalesPageToFit = YES;
+		
 		NSURL *webUrl = [NSURL URLWithString: information];
 		NSData *data = [NSData dataWithContentsOfURL: webUrl];
 		
-		//if (data == nil) {
-		//	NSLog(@"could not load URL %@", webUrl);
-	//		return YES;
-	//	}
-		[webView loadData: data MIMEType: @"text/html" textEncodingName: @"NSUTF8StringEncoding" baseURL: webUrl];		
+		if (data == nil) {
+			NSLog(@"could not load URL %@", webUrl);
+				return self;
+			}
+		[self loadData: data MIMEType: @"text/html" textEncodingName: @"NSUTF8StringEncoding" baseURL: webUrl];		
 		
 		[self.window makeKeyAndVisible];
 	}

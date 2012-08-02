@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F04FA0A015C7783A00DC34EE /* earth.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F04FA08315C7783A00DC34EE /* earth.jpeg */; };
+		F04FA0A115C7783A00DC34EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F04FA08415C7783A00DC34EE /* InfoPlist.strings */; };
+		F04FA0A215C7783A00DC34EE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F04FA08615C7783A00DC34EE /* icon.png */; };
+		F04FA0A315C7783A00DC34EE /* InfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04FA08815C7783A00DC34EE /* InfoController.m */; };
+		F04FA0A415C7783A00DC34EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F04FA08915C7783A00DC34EE /* InfoPlist.strings */; };
+		F04FA0A515C7783A00DC34EE /* InfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F04FA08B15C7783A00DC34EE /* InfoView.m */; };
+		F04FA0A615C7783A00DC34EE /* Explore-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F04FA08C15C7783A00DC34EE /* Explore-Info.plist */; };
+		F04FA0A715C7783A00DC34EE /* Jul19AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F04FA08F15C7783A00DC34EE /* Jul19AppDelegate.m */; };
+		F04FA0A815C7783A00DC34EE /* jupiter.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F04FA09015C7783A00DC34EE /* jupiter.jpeg */; };
+		F04FA0A915C7783A00DC34EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F04FA09115C7783A00DC34EE /* main.m */; };
+		F04FA0AA15C7783A00DC34EE /* mars.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F04FA09215C7783A00DC34EE /* mars.jpeg */; };
+		F04FA0AB15C7783A00DC34EE /* mercury.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F04FA09315C7783A00DC34EE /* mercury.jpeg */; };
+		F04FA0AD15C7783A00DC34EE /* neptune.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F04FA09515C7783A00DC34EE /* neptune.jpeg */; };
+		F04FA0AE15C7783A00DC34EE /* saturn.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F04FA09615C7783A00DC34EE /* saturn.jpeg */; };
+		F04FA0AF15C7783A00DC34EE /* sun.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F04FA09715C7783A00DC34EE /* sun.jpeg */; };
+		F04FA0B015C7783A00DC34EE /* sun2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F04FA09815C7783A00DC34EE /* sun2.jpeg */; };
+		F04FA0B115C7783A00DC34EE /* sun_small.png in Resources */ = {isa = PBXBuildFile; fileRef = F04FA09915C7783A00DC34EE /* sun_small.png */; };
+		F04FA0B215C7783A00DC34EE /* uranus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F04FA09A15C7783A00DC34EE /* uranus.jpeg */; };
+		F04FA0B315C7783A00DC34EE /* venus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F04FA09B15C7783A00DC34EE /* venus.jpeg */; };
+		F04FA0B415C7783A00DC34EE /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = F04FA09D15C7783A00DC34EE /* View.m */; };
+		F04FA0B515C7783A00DC34EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04FA09F15C7783A00DC34EE /* ViewController.m */; };
+		F04FA0BB15C77E9D00DC34EE /* spaceman.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F04FA0BA15C77E9D00DC34EE /* spaceman.jpeg */; };
+		F04FA0BD15C78D5900DC34EE /* spaceman.png in Resources */ = {isa = PBXBuildFile; fileRef = F04FA0BC15C78D5900DC34EE /* spaceman.png */; };
+		F04FA0C715C8B9C500DC34EE /* rocflames.png in Resources */ = {isa = PBXBuildFile; fileRef = F04FA0C615C8B9C500DC34EE /* rocflames.png */; };
+		F04FA0F515CA0A2E00DC34EE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04FA0F415CA0A2E00DC34EE /* AudioToolbox.framework */; };
+		F04FA0F815CA0C6700DC34EE /* spaceship.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F04FA0F715CA0C6700DC34EE /* spaceship.mp3 */; };
+		F082F17615B64A47006482A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F082F17515B64A47006482A8 /* UIKit.framework */; };
+		F082F17815B64A47006482A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F082F17715B64A47006482A8 /* Foundation.framework */; };
+		F082F17A15B64A47006482A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F082F17915B64A47006482A8 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F04FA08315C7783A00DC34EE /* earth.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpeg; sourceTree = "<group>"; };
+		F04FA08515C7783A00DC34EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F04FA08615C7783A00DC34EE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F04FA08715C7783A00DC34EE /* InfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoController.h; sourceTree = "<group>"; };
+		F04FA08815C7783A00DC34EE /* InfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoController.m; sourceTree = "<group>"; };
+		F04FA08915C7783A00DC34EE /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F04FA08A15C7783A00DC34EE /* InfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoView.h; sourceTree = "<group>"; };
+		F04FA08B15C7783A00DC34EE /* InfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoView.m; sourceTree = "<group>"; };
+		F04FA08C15C7783A00DC34EE /* Explore-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Explore-Info.plist"; sourceTree = "<group>"; };
+		F04FA08D15C7783A00DC34EE /* Explore-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; path = "Explore-Prefix.pch"; sourceTree = "<group>"; };
+		F04FA08E15C7783A00DC34EE /* Jul19AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jul19AppDelegate.h; sourceTree = "<group>"; };
+		F04FA08F15C7783A00DC34EE /* Jul19AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jul19AppDelegate.m; sourceTree = "<group>"; };
+		F04FA09015C7783A00DC34EE /* jupiter.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jupiter.jpeg; sourceTree = "<group>"; };
+		F04FA09115C7783A00DC34EE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F04FA09215C7783A00DC34EE /* mars.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mars.jpeg; sourceTree = "<group>"; };
+		F04FA09315C7783A00DC34EE /* mercury.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mercury.jpeg; sourceTree = "<group>"; };
+		F04FA09515C7783A00DC34EE /* neptune.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neptune.jpeg; sourceTree = "<group>"; };
+		F04FA09615C7783A00DC34EE /* saturn.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saturn.jpeg; sourceTree = "<group>"; };
+		F04FA09715C7783A00DC34EE /* sun.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sun.jpeg; sourceTree = "<group>"; };
+		F04FA09815C7783A00DC34EE /* sun2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sun2.jpeg; sourceTree = "<group>"; };
+		F04FA09915C7783A00DC34EE /* sun_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun_small.png; sourceTree = "<group>"; };
+		F04FA09A15C7783A00DC34EE /* uranus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uranus.jpeg; sourceTree = "<group>"; };
+		F04FA09B15C7783A00DC34EE /* venus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = venus.jpeg; sourceTree = "<group>"; };
+		F04FA09C15C7783A00DC34EE /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		F04FA09D15C7783A00DC34EE /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		F04FA09E15C7783A00DC34EE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F04FA09F15C7783A00DC34EE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F04FA0BA15C77E9D00DC34EE /* spaceman.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spaceman.jpeg; path = Jul19/spaceman.jpeg; sourceTree = "<group>"; };
+		F04FA0BC15C78D5900DC34EE /* spaceman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceman.png; sourceTree = "<group>"; };
+		F04FA0C615C8B9C500DC34EE /* rocflames.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocflames.png; sourceTree = "<group>"; };
+		F04FA0F415CA0A2E00DC34EE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F04FA0F715CA0C6700DC34EE /* spaceship.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spaceship.mp3; sourceTree = "<group>"; };
+		F082F17115B64A47006482A8 /* Explore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Explore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F082F17515B64A47006482A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F082F17715B64A47006482A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F082F17915B64A47006482A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F082F16E15B64A47006482A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04FA0F515CA0A2E00DC34EE /* AudioToolbox.framework in Frameworks */,
+				F082F17615B64A47006482A8 /* UIKit.framework in Frameworks */,
+				F082F17815B64A47006482A8 /* Foundation.framework in Frameworks */,
+				F082F17A15B64A47006482A8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F04FA08215C7783A00DC34EE /* Jul19 */ = {
+			isa = PBXGroup;
+			children = (
+				F04FA0F715CA0C6700DC34EE /* spaceship.mp3 */,
+				F04FA0C615C8B9C500DC34EE /* rocflames.png */,
+				F04FA0BC15C78D5900DC34EE /* spaceman.png */,
+				F04FA08315C7783A00DC34EE /* earth.jpeg */,
+				F04FA08415C7783A00DC34EE /* InfoPlist.strings */,
+				F04FA08615C7783A00DC34EE /* icon.png */,
+				F04FA08715C7783A00DC34EE /* InfoController.h */,
+				F04FA08815C7783A00DC34EE /* InfoController.m */,
+				F04FA08915C7783A00DC34EE /* InfoPlist.strings */,
+				F04FA08A15C7783A00DC34EE /* InfoView.h */,
+				F04FA08B15C7783A00DC34EE /* InfoView.m */,
+				F04FA08C15C7783A00DC34EE /* Explore-Info.plist */,
+				F04FA08D15C7783A00DC34EE /* Explore-Prefix.pch */,
+				F04FA08E15C7783A00DC34EE /* Jul19AppDelegate.h */,
+				F04FA08F15C7783A00DC34EE /* Jul19AppDelegate.m */,
+				F04FA09015C7783A00DC34EE /* jupiter.jpeg */,
+				F04FA09115C7783A00DC34EE /* main.m */,
+				F04FA09215C7783A00DC34EE /* mars.jpeg */,
+				F04FA09315C7783A00DC34EE /* mercury.jpeg */,
+				F04FA09515C7783A00DC34EE /* neptune.jpeg */,
+				F04FA09615C7783A00DC34EE /* saturn.jpeg */,
+				F04FA09715C7783A00DC34EE /* sun.jpeg */,
+				F04FA09815C7783A00DC34EE /* sun2.jpeg */,
+				F04FA09915C7783A00DC34EE /* sun_small.png */,
+				F04FA09A15C7783A00DC34EE /* uranus.jpeg */,
+				F04FA09B15C7783A00DC34EE /* venus.jpeg */,
+				F04FA09C15C7783A00DC34EE /* View.h */,
+				F04FA09D15C7783A00DC34EE /* View.m */,
+				F04FA09E15C7783A00DC34EE /* ViewController.h */,
+				F04FA09F15C7783A00DC34EE /* ViewController.m */,
+			);
+			path = Jul19;
+			sourceTree = "<group>";
+		};
+		F082F16615B64A47006482A8 = {
+			isa = PBXGroup;
+			children = (
+				F04FA0F415CA0A2E00DC34EE /* AudioToolbox.framework */,
+				F04FA0BA15C77E9D00DC34EE /* spaceman.jpeg */,
+				F04FA08215C7783A00DC34EE /* Jul19 */,
+				F082F17415B64A47006482A8 /* Frameworks */,
+				F082F17215B64A47006482A8 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
+		F082F17215B64A47006482A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F082F17115B64A47006482A8 /* Explore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F082F17415B64A47006482A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F082F17515B64A47006482A8 /* UIKit.framework */,
+				F082F17715B64A47006482A8 /* Foundation.framework */,
+				F082F17915B64A47006482A8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F082F17015B64A47006482A8 /* Explore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F082F18915B64A47006482A8 /* Build configuration list for PBXNativeTarget "Explore" */;
+			buildPhases = (
+				F082F16D15B64A47006482A8 /* Sources */,
+				F082F16E15B64A47006482A8 /* Frameworks */,
+				F082F16F15B64A47006482A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Explore;
+			productName = Jul19;
+			productReference = F082F17115B64A47006482A8 /* Explore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F082F16815B64A47006482A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Jul19;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F082F16B15B64A47006482A8 /* Build configuration list for PBXProject "Explore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F082F16615B64A47006482A8;
+			productRefGroup = F082F17215B64A47006482A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F082F17015B64A47006482A8 /* Explore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F082F16F15B64A47006482A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04FA0A015C7783A00DC34EE /* earth.jpeg in Resources */,
+				F04FA0A115C7783A00DC34EE /* InfoPlist.strings in Resources */,
+				F04FA0A215C7783A00DC34EE /* icon.png in Resources */,
+				F04FA0A415C7783A00DC34EE /* InfoPlist.strings in Resources */,
+				F04FA0A615C7783A00DC34EE /* Explore-Info.plist in Resources */,
+				F04FA0A815C7783A00DC34EE /* jupiter.jpeg in Resources */,
+				F04FA0AA15C7783A00DC34EE /* mars.jpeg in Resources */,
+				F04FA0AB15C7783A00DC34EE /* mercury.jpeg in Resources */,
+				F04FA0AD15C7783A00DC34EE /* neptune.jpeg in Resources */,
+				F04FA0AE15C7783A00DC34EE /* saturn.jpeg in Resources */,
+				F04FA0AF15C7783A00DC34EE /* sun.jpeg in Resources */,
+				F04FA0B015C7783A00DC34EE /* sun2.jpeg in Resources */,
+				F04FA0B115C7783A00DC34EE /* sun_small.png in Resources */,
+				F04FA0B215C7783A00DC34EE /* uranus.jpeg in Resources */,
+				F04FA0B315C7783A00DC34EE /* venus.jpeg in Resources */,
+				F04FA0BB15C77E9D00DC34EE /* spaceman.jpeg in Resources */,
+				F04FA0BD15C78D5900DC34EE /* spaceman.png in Resources */,
+				F04FA0C715C8B9C500DC34EE /* rocflames.png in Resources */,
+				F04FA0F815CA0C6700DC34EE /* spaceship.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F082F16D15B64A47006482A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04FA0A315C7783A00DC34EE /* InfoController.m in Sources */,
+				F04FA0A515C7783A00DC34EE /* InfoView.m in Sources */,
+				F04FA0A715C7783A00DC34EE /* Jul19AppDelegate.m in Sources */,
+				F04FA0A915C7783A00DC34EE /* main.m in Sources */,
+				F04FA0B415C7783A00DC34EE /* View.m in Sources */,
+				F04FA0B515C7783A00DC34EE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F04FA08415C7783A00DC34EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F04FA08515C7783A00DC34EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F082F18715B64A47006482A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F082F18815B64A47006482A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F082F18A15B64A47006482A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jul19/Explore-Prefix.pch";
+				INFOPLIST_FILE = "Jul19/Explore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = Explore;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F082F18B15B64A47006482A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jul19/Explore-Prefix.pch";
+				INFOPLIST_FILE = "Jul19/Explore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = Explore;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F082F16B15B64A47006482A8 /* Build configuration list for PBXProject "Explore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F082F18715B64A47006482A8 /* Debug */,
+				F082F18815B64A47006482A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F082F18915B64A47006482A8 /* Build configuration list for PBXNativeTarget "Explore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F082F18A15B64A47006482A8 /* Debug */,
+				F082F18B15B64A47006482A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F082F16815B64A47006482A8 /* Project object */;
+}

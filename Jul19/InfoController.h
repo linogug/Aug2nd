@@ -10,6 +10,7 @@
 
 @interface InfoController: UIViewController {
 	NSString *information;
+	UIView *myview;
 }
 
 - (id) initWithTitle: (NSString *) title information: (NSString *) i;

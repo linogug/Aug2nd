@@ -30,13 +30,13 @@
 
 	information = [NSDictionary dictionaryWithObjectsAndKeys:
 				   @"http://en.m.wikipedia.org/wiki/Sun",          @"Sun",
-				   @"http://en.m.wikipedia.org/wiki/Mercury",      @"Mercury",
+				   @"http://en.m.wikipedia.org/wiki/Mercury_(planet)",      @"Mercury",
 				   @"http://en.m.wikipedia.org/wiki/Venus",        @"Venus",
 				   @"http://en.m.wikipedia.org/wiki/Earth",        @"Earth",                        
 				   @"http://en.m.wikipedia.org/wiki/Mars",         @"Mars",
 				   @"http://en.m.wikipedia.org/wiki/Jupiter",      @"Jupiter",		 
 				   @"http://en.m.wikipedia.org/wiki/Saturn",        @"Saturn",
-				   @"http://en.m.wikipedia.org/wiki/Uransu",        @"Uranus",
+				   @"http://en.m.wikipedia.org/wiki/Uranus",        @"Uranus",
 				   @"http://en.m.wikipedia.org/wiki/Neptune",        @"Neptune",
 				   nil
 				   ];

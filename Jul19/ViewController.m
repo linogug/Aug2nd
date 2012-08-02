@@ -40,7 +40,19 @@
 																				 action: @selector(nextStation)
 												  ];
 		
+		NSBundle *bundle = [NSBundle mainBundle];
+		NSLog(@"bundle.bundlePath == \"%@\"", bundle.bundlePath);	
 		
+		NSString *filename = [bundle pathForResource: @"spaceship" ofType: @"mp3"];
+		NSLog(@"filename == \"%@\"", filename);
+		
+		NSURL *url = [NSURL fileURLWithPath: filename isDirectory: NO];
+		NSLog(@"url == \"%@\"", url);
+		
+		OSStatus error = AudioServicesCreateSystemSoundID((__bridge CFURLRef)url, &sid);
+		if (error != kAudioServicesNoError) {
+			NSLog(@"AudioServicesCreateSystemSoundID error == %ld", error);
+		}
 	}
 	return self;
 }
@@ -54,7 +66,7 @@
 
 - (void) discover {
 	
-	NSLog( @"Here");
+	//NSLog( @"Here");
 
 	Jul19AppDelegate *applicationDelegate = [UIApplication sharedApplication].delegate ;
 	NSString *information = [applicationDelegate.information objectForKey: self.title];
@@ -73,6 +85,12 @@
 
 }
 
+- (void) playSound{
+	// Override point for customization after application launch.
+
+	AudioServicesPlaySystemSound(sid);	
+		
+	}	
 
 
 

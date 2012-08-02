@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController: UIViewController
+#import <AudioToolbox/AudioToolbox.h>	//needed for SystemSoundID
+@interface ViewController: UIViewController{
+	
+	SystemSoundID sid;
+}
 
 - (id) initWithTitle: (NSString *) title;
 - (void) nextStation;
 - (void) discover;
+- (void) playSound;
+
 @end

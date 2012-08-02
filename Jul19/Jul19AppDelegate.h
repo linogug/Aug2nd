@@ -9,10 +9,12 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface Jul19AppDelegate: UIResponder <UIApplicationDelegate> {
 	UIWindow *_window;
 	NSArray *planets;
 	NSMutableArray *visited;
+	
 }
 
 - (void) nextStation;

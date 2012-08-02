@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Jul19/View.m"
-         timestampString = "364963663.130105"
+         timestampString = "365568632.852205"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "66"
-         endingLineNumber = "66"
+         startingLineNumber = "170"
+         endingLineNumber = "170"
          landmarkName = "-drawRect:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Jul19/ViewController.m"
-         timestampString = "364963781.640148"
+         timestampString = "365563612.816368"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "62"
-         endingLineNumber = "62"
+         startingLineNumber = "75"
+         endingLineNumber = "75"
          landmarkName = "-discover"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Jul19/ViewController.m"
-         timestampString = "364963781.640148"
+         timestampString = "365563612.816368"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "69"
-         endingLineNumber = "69"
+         startingLineNumber = "82"
+         endingLineNumber = "82"
          landmarkName = "-discover"
          landmarkType = "5">
       </FileBreakpoint>
@@ -47,11 +47,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Jul19/View.m"
-         timestampString = "364963663.130105"
+         timestampString = "365566994.679156"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "45"
-         endingLineNumber = "45"
+         startingLineNumber = "62"
+         endingLineNumber = "62"
          landmarkName = "-initWithFrame:controller:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -60,11 +60,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Jul19/ViewController.m"
-         timestampString = "364963781.640148"
+         timestampString = "365563612.816368"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "72"
-         endingLineNumber = "72"
+         startingLineNumber = "85"
+         endingLineNumber = "85"
          landmarkName = "-discover"
          landmarkType = "5">
       </FileBreakpoint>
@@ -73,12 +73,51 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Jul19/InfoView.m"
-         timestampString = "364965585.48837"
+         timestampString = "365392239.768623"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "44"
-         endingLineNumber = "44"
+         startingLineNumber = "41"
+         endingLineNumber = "41"
          landmarkName = "-initWithFrame:information:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Jul19/View.m"
+         timestampString = "365568130.907118"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "129"
+         endingLineNumber = "129"
+         landmarkName = "-launch"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Jul19/View.m"
+         timestampString = "365566994.679156"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "63"
+         endingLineNumber = "63"
+         landmarkName = "-initWithFrame:controller:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Jul19/View.m"
+         timestampString = "365566994.679156"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "64"
+         endingLineNumber = "64"
+         landmarkName = "-initWithFrame:controller:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

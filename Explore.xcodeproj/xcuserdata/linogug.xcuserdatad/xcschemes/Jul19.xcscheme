@@ -14,9 +14,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F082F17015B64A47006482A8"
-               BuildableName = "Jul19.app"
-               BlueprintName = "Jul19"
-               ReferencedContainer = "container:Jul19.xcodeproj">
+               BuildableName = "Explore.app"
+               BlueprintName = "Explore"
+               ReferencedContainer = "container:Explore.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,9 +32,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F082F17015B64A47006482A8"
-            BuildableName = "Jul19.app"
-            BlueprintName = "Jul19"
-            ReferencedContainer = "container:Jul19.xcodeproj">
+            BuildableName = "Explore.app"
+            BlueprintName = "Explore"
+            ReferencedContainer = "container:Explore.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,9 +51,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F082F17015B64A47006482A8"
-            BuildableName = "Jul19.app"
-            BlueprintName = "Jul19"
-            ReferencedContainer = "container:Jul19.xcodeproj">
+            BuildableName = "Explore.app"
+            BlueprintName = "Explore"
+            ReferencedContainer = "container:Explore.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F082F17015B64A47006482A8"
-            BuildableName = "Jul19.app"
-            BlueprintName = "Jul19"
-            ReferencedContainer = "container:Jul19.xcodeproj">
+            BuildableName = "Explore.app"
+            BlueprintName = "Explore"
+            ReferencedContainer = "container:Explore.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
